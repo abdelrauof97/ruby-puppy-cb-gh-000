@@ -1,4 +1,4 @@
-def Dog 
+class Dog 
   
   attr_reader :name
   @@all = []
