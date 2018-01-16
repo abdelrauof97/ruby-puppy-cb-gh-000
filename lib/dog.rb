@@ -7,8 +7,10 @@ class Dog
     @@all << self 
   end
   
-  def self.all 
+  def self.all(name) 
     @@all.each { |x| puts x.name }
   end
+  
+  
   
 end 
